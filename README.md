@@ -2,6 +2,8 @@
 
 以《绝望写手》为主题的响应式单页网站：用酒红幕布、金色舞台灯与大标题呈现剧集介绍，结合人物关系、主题分析、视听素材及少量个人感想。
 
+[在线演示](https://bobogigi356.github.io/hacks-web/) · [GitHub 源码](https://github.com/bobogigi356/hacks-web)
+
 参考 [COCO 介绍站](https://zwj123-sudo.github.io/coco-web/) 的内容组织，独立编写实现。无前端依赖、无构建步骤，可直接上传 GitHub Pages；主内容随 HTML 提供，本地双击即可浏览。
 
 ## 文件
@@ -30,7 +32,7 @@
 
 ## 验证状态
 
-当前版已完成桌面 1487 × 1058、手机 390 × 844 和窄屏 320 × 740 检查。五季概览、图片灯箱、手机菜单、人物小记及剧透折叠已验证；标题更换字体后复核了窄屏可读性，新增获奖记录的展开、收起及导航检查通过。JavaScript 语法、资源引用和锚点检查通过，浏览器控制台未发现错误或警告。详细结果见 `design-qa.md`。当前为可本地预览和上传的版本，尚未发布 GitHub Pages。
+当前版已完成桌面 1487 × 1058、手机 390 × 844 和窄屏 320 × 740 检查。五季概览、图片灯箱、手机菜单、人物小记及剧透折叠已验证；标题更换字体后复核了窄屏可读性，剧情介绍两段的字体、字号和行距已统一，获奖记录的展开、收起及导航检查通过。JavaScript 语法、资源引用和锚点检查通过，浏览器控制台未发现错误或警告。2026-11-24 已发布 GitHub Pages，并在公开网址复查剧情切换、获奖记录、灯箱和手机导航；线上资源完整性核对通过。详细结果见 `design-qa.md`。
 
 ## 本地查看
 
@@ -42,17 +44,19 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 打开 `http://127.0.0.1:4173/`。不需要安装 npm 包。
 
-## 发布到自己的 GitHub Pages
+## 发布与后续更新
 
-发布账号：`bobogigi356`。目标仓库：`bobogigi356/hacks-web`。账号已确认并完成登录，正在准备上传与发布，尚未上线。
+发布账号：`bobogigi356`。仓库：`bobogigi356/hacks-web`。已上线，使用 `main` 分支的 `/ (root)` 目录发布，并启用 HTTPS。
 
-预计仓库地址：`https://github.com/bobogigi356/hacks-web`。预计网站地址：`https://bobogigi356.github.io/hacks-web/`。完成发布后再把这两个地址作为简历中的有效链接。
+后续更新：修改本地源文件，将修改后的文件同步到仓库对应路径并提交到 `main`。GitHub Pages 会自动重新发布；在仓库 **Actions** 或 **Settings → Pages** 查看状态，完成后刷新在线演示检查。图片保留在 `assets/` 目录，避免上传到仓库根目录。
+
+以下保留首次部署的复现步骤：
 
 1. 在 `bobogigi356` 账号中创建公开仓库，名称 `hacks-web`。
 2. 上传本目录中的 `index.html`、`style.css`、`main.js`、`.nojekyll`、整个 `assets/` 文件夹以及本 README。保证 `index.html` 在仓库根目录，不能额外套一层 `hacks-web` 文件夹。
 3. 在仓库 **Settings → Pages → Build and deployment** 中选择 **Deploy from a branch**。
 4. Branch 选 `main`，文件夹选 `/ (root)`，保存。
-5. 等待 GitHub Pages 发布成功，在 Pages 页面查看并核对实际网址，预计为 `https://bobogigi356.github.io/hacks-web/`。
+5. 等待 GitHub Pages 发布成功，在 Pages 页面查看并核对实际网址。本项目为 `https://bobogigi356.github.io/hacks-web/`。
 
 发布设置已按 [GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) 核对。
 
@@ -87,12 +91,14 @@ CSS、脚本和图片都采用相对路径，可在 GitHub 的项目子路径下
 
 ## 简历项目表述
 
-下面的表述可在完成页面验证后使用；线上地址、仓库地址在实际发布后补充。
+已完成公开部署与页面验证，可按应聘岗位取舍下面的表述：
 
 **《绝望写手》剧集介绍站｜HTML / CSS / JavaScript · AI 辅助开发**
 
-- 参考影视专题站完成内容拆解、视觉还原与响应式单页实现，组织剧情、六位人物、人物关系、主题及视听内容。
-- 实现五季内容切换、移动导航、滚动定位与进度、图片灯箱及剧透折叠，加入键盘操作和减少动画支持。
-- 使用 AI 辅助开发与图像生成，结合官方资料完成素材整理，并通过桌面、手机浏览器检查页面和核心交互。
+[在线演示](https://bobogigi356.github.io/hacks-web/) · [项目源码](https://github.com/bobogigi356/hacks-web)
 
-确认 GitHub Pages 已上线后，可补一句“部署至 GitHub Pages，提供公开源码与在线演示”。不填写虚构的访问量、性能成绩或尚未发生的上线状态。
+- 参考影视专题站完成内容拆解、视觉实现与响应式单页开发，组织剧情、六位人物、人物关系、获奖荣誉、主题及视听内容。
+- 实现五季内容切换、移动导航、滚动定位与进度、图片灯箱及剧透折叠，加入键盘操作和减少动画支持。
+- 使用 AI 辅助开发与图像生成，结合官方资料完成素材整理；通过桌面、手机浏览器检查核心交互，并部署至 GitHub Pages，提供公开源码与在线演示。
+
+可展示内容拆解、AI 协作迭代、响应式实现、交互验证与静态网站部署的完整过程。不填写未经测量的访问量、性能成绩或转化数据。
