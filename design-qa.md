@@ -44,7 +44,12 @@ final result: passed
    - 新版证据：`awards-desktop.jpg`、`awards-mobile.jpg`、`awards-records-mobile.jpg`、`title-mobile-320.jpg`。旧版截图只保留为阶段比较依据。
 4. 剧情介绍正文统一：
    - 删除首段单独的衬线与大字号覆盖，上下两段共同使用系统无衬线正文样式。实际浏览器计算结果一致：桌面 15 px、行高 30 px、相同文字颜色；手机共同使用 14 px 规则。
-   - 当前 1280 × 720 桌面预览已查看，证据 `/private/tmp/hacks-qa/story-font-unified.jpg`。移除不再使用的 `intro-copy` 类和样式，避免重复规则。
+   - 当前 1280 × 720 桌面预览已查看，证据 `/private/tmp/hacks-qa/story-font-unified.jpg`。390 px 手机实测为两段相同的 14 px、行高 28 px，页面无横向溢出。移除不再使用的 `intro-copy` 类和样式，避免重复规则。
+5. GitHub Pages 公开发布复核（2026-11-24）：
+   - 仓库 `bobogigi356/hacks-web`，发布来源 `main` / `/ (root)`，HTTPS；公开地址 https://bobogigi356.github.io/hacks-web/ 已实际打开并查看。
+   - 页面、样式、脚本、十张图片及来源清单已下载核对，上传完整且与本地内容一致。网页编辑器增加的来源清单末尾换行已同步到本地。
+   - 线上第五季切换、12 组获奖记录展开、图片灯箱打开／关闭通过；390 px 手机菜单选择剧情后自动收起，正文样式一致，无横向溢出。线上控制台无警告或错误。
+   - 线上截图 `/private/tmp/hacks-qa/live-home.jpg`、`live-story-mobile.jpg`。仓库 About 已添加在线演示链接。
 
 ## 已验证交互
 
@@ -60,7 +65,7 @@ final result: passed
 
 ## 交付边界
 
-- GitHub 账号已确认是 `bobogigi356`，目标仓库 `hacks-web`，正在上传与发布；线上结果以完成后的实际访问检查为准。
+- GitHub Pages 已公开发布并完成实际访问检查；源码仓库 https://github.com/bobogigi356/hacks-web ，网站 https://bobogigi356.github.io/hacks-web/ 。
 - 简历项目文案已写入 README；尚未收到实际简历文件，未声称已修改简历。
 - 官方预告和原声链接已核对出处；地区、网络与平台播放可用性不由本站控制。
 - QA 截图放临时目录，可由源码和本地预览重新生成；网站发布只依赖本目录内的页面与素材。
@@ -68,7 +73,7 @@ final result: passed
 ## 后续小幅润色
 
 - P3：手机背景会更聚焦酒红幕布，麦克风在裁切后不一定完整出现；正文与按钮可读性正常。
-- P3：GitHub Pages 上线后，将分享卡片的图片地址补为确定的绝对线上地址。
+- 分享卡片图片、规范网址与页面网址已补为正式 HTTPS 地址。
 
 ## 实现清单
 
