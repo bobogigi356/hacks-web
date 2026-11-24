@@ -1,0 +1,68 @@
+[
+  {
+    "file": "deborah.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/jean-smart_10.jpg?h=d1904bd9&itok=0Z794IpL",
+    "caption": "Jean Smart",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "ava.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/hannah-einbinder_3.jpg?h=d1904bd9&itok=kT5UkRQv",
+    "caption": "Hannah Einbinder",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "marcus.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/carl-clemons-hopkins.jpg?h=d1904bd9&itok=yCCrN8Zw",
+    "caption": "Carl Clemons-Hopkins",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "jimmy.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/paul-w-downs_4.jpg?h=d1904bd9&itok=fd-OCncF",
+    "caption": "Paul W. Downs",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "kayla.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/megan-stalter_1.jpg?h=d1904bd9&itok=s93erpln",
+    "caption": "Megan Stalter",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "dj.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/kaitlin-olson.jpg?h=d1904bd9&itok=SrpZJrK0",
+    "caption": "Kaitlin Olson",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "duo.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/jean-smart-hannah-einbinder_8.jpeg?h=279e39be&itok=q0sschhl",
+    "caption": "Jean Smart, Hannah Einbinder",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "partners.jpg",
+    "url": "https://static.cdn.turner.com/styles/thumbnail_image_cropped_564x318/s3/images/2026-05/megan-stalter-paul-w-downs_2.jpg?h=d1904bd9&itok=9ORNzMiZ",
+    "caption": "Megan Stalter, Paul W. Downs",
+    "credit": "HBO Max / Warner Bros. Discovery public press thumbnail",
+    "source_page": "https://press.wbd.com/us/property/hacks/images"
+  },
+  {
+    "file": "stage-hero.png",
+    "credit": "AI 气氛图 · 内置 ImageGen",
+    "prompt_summary": "1536×1024，参考已选酒红舞台，左侧幕布留白，右侧金色灯光与复古麦克风，无人物、文字与界面。"
+  },
+  {
+    "file": "writers-desk.png",
+    "credit": "AI 气氛图 · 内置 ImageGen",
+    "prompt_summary": "方形，暖色后台灯光，酒红幕布、剧本、钢笔与黑咖啡杯，无人物、可读文字与界面。"
+  }
+]
